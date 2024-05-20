@@ -1,0 +1,79 @@
+.investor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .investor-data {
+    flex: 1;
+    margin-left:30%;
+  }
+  
+  .investor-detail {
+    display: flex;
+    justify-content: flex-start; /* Changed to flex-start */
+    margin-bottom: 10px;
+  }
+  
+  .investor-field {
+    font-weight: bold;
+    color: #333;
+    width: 100px; /* Added a fixed width */
+  }
+  
+  .investor-value {
+    color: #555;
+  }
+  
+  .investor-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-top:3%;
+}
+
+  
+  .investor-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .investor-button:hover {
+    background-color: #0056b3;
+  }
+  .Summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centers the contents horizontally */
+    background-color: black; /* Sets background color to black */
+    color: white; /* Sets text color to white for better visibility */
+    padding: 10px; /* Adds padding for better spacing */
+  }
+  
+  .totalInvestment {
+    width: 50%; /* Divide the total width by half */
+    text-align: center; /* Centers the text horizontally within each div */
+    margin-left:17%;
+  }
+  .totalROI{
+    margin-right:2%;
+    width: 50%; /* Divide the total width by half */
+    text-align: center; /* Centers the text horizontally within each div */
+  }
+  
+  
+  
+  .Summary div {
+    margin-bottom: 5px;
+  }

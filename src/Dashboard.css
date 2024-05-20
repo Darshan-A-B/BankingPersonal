@@ -1,0 +1,162 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.dashboard {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 6%;
+  /* max-width: 800px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* width: 70%; */
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+select {
+  margin-right: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:1%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.investor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .dashboard {
+    padding: 10px;
+  }
+
+  select {
+    padding: 8px;
+    margin-right: 5px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
+
+/* Dashboard.css */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  backdrop-filter: blur(8px); /* apply blur effect */
+  z-index: 999; /* ensure the popup is on top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #aaa;
+}
+
+.close:hover {
+  color: #666;
+}
+
+.popup h2 {
+  margin-bottom: 20px;
+}
+
+.popup input {
+  width: calc(100% - 40px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popup button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #45a049;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.no-investors {
+  text-align: center;
+} 
+.close-button {
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left:87%;
+  width:10%!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: coral; /* Lighter red color on hover */
+}
